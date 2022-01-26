@@ -2,7 +2,6 @@
 var bookPages = ['hablu' , 'bolod' , 'choddogosthi' , 'battary' , 'paracitamol' , 'gym'];
 
 var battaryIndex =bookPages.indexOf('battary'); // battary er position ba index dekhte indexOf();
-
 console.log('index is = ' + battaryIndex);
 
 
@@ -22,8 +21,6 @@ var Numbers = [45 , 46 , 88 , 90 ,20];
 
 var findIndex = Numbers.indexOf(88);
 console.log('index is = ' + findIndex);
-
-
 
 
 // kono index er valu k change korte chaile
