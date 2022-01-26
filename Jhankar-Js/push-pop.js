@@ -27,3 +27,12 @@ console.log(number);
 
 
 
+
+
+// problem qustions 
+
+// -> js remove first item from an array
+// -> js array add element in the beginning!
+
+
+
