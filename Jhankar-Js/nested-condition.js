@@ -41,3 +41,7 @@ if(danishPrice < myBudget ){
         console.log('danish khabo na!');
     }
 }
+
+
+
+

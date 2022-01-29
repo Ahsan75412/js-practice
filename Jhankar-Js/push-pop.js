@@ -22,8 +22,9 @@ console.log(friendsAge);
 var number = [12, 18 ,20 ,25 ,34 ,44];
 number.pop(); // dekha jabe last element remove hoye 3 ta element thakbe 
 number.pop();
+number[1] = 8; // 2nd element reples kore dilam
 
-console.log(number);
+console.log( 'add num '+ number);
 
 
 

@@ -9,7 +9,7 @@ console.log('index is = ' + battaryIndex);
 //amra josi dekhte chai j 2 no index a k ase tahole nicher moto kore
 
 var secondIndex = bookPages[2];
-console.log('second index is = ' + secondIndex);
+console.log('second element is = ' + secondIndex);
 
 
 
@@ -27,4 +27,6 @@ console.log('index is = ' + findIndex);
 console.log('change korar age ' + Numbers);
 Numbers[1] = 125 ;
 console.log('change korar pore ' + Numbers);
+
+
 
