@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    
+</head>
+<body>
+
+    <h1 onclick="console.log('h1 is clicked!')">Event niye clickBaji</h1>
+    <button onclick="console.log('7')">Click Me</button>
+    
+    <button onclick="document.body.style.backgroundColor='yellow'">Click AND CHANGE yello</button>
+
+
+    <button onclick="makeRed()">Make Red</button>
+
+
+    <button id="blue-button">Blue button</button>
+
+
+    <!-- Different ways to use addEventListener on a button -->
+    <button id="make-green-button">Green me</button>
+
+
+    <button id="golden-rod-button">Golden Rod Button</button>
+
+    <script src="./events.js"></script>
+
+    <br>
+    <br>
+
+    <!-- handle common eventListener -->
+    <p id="clicking-Method"></p>
+    <input id="name-fild" type="text">
+    <button id="update-name">Update</button>
+    <button onclick="handleJustFunctionClick()">Just Function</button>
+     <button id="handle-event">Direct add eventListener</button>
+
+    <script>
+
+   //using function 
+
+    function handleJustFunctionClick(){
+        const clickingMethod = document.getElementById('clicking-Method');
+        clickingMethod.innerText = 'Set by usnig function'
+    }
+
+//direct
+    document.getElementById('handle-event').addEventListener('click' , function(){
+        const p = document.getElementById('clicking-Method');
+        p.innerText = ' set by direct add event handle ';
+    })
+
+    //direct
+
+    document.getElementById('update-name').addEventListener('click' , function(){
+        const NameFild = document.getElementById('name-fild');
+
+        const p = document.getElementById('clicking-Method');
+        p.innerText = NameFild.value;
+        NameFild.value = '';
+
+        
+    })
+
+     
+    </script>
+</body>
+</html>
